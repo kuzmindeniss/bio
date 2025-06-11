@@ -74,7 +74,6 @@ const SequenceAlignmentVisualization = ({ sequences }: SequenceAlignmentVisualiz
       <Box
         ref={combinedContainerRefCallback}
         mt={4}
-        position="relative"
       >
         <AminoAcidCharForAdjustment ref={aminoAcidCharForAdjustmentRefCallback} visibility="hidden" />
         {sequenceChunks.map(renderChunk)}
