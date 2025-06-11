@@ -1,10 +1,10 @@
 import { Alert, Box, Snackbar } from '@mui/material';
-import { AminoAcid } from '../../../constants';
+import { AminoAcid } from '@/constants';
 import AminoAcidChar from './AminoAcidChar/AminoAcidChar';
 import { useMeasure } from '@uidotdev/usehooks';
 import AminoAcidCharForAdjustment from './AminoAcidChar/ForAdjustment';
 import { useMemo, useState, useRef } from 'react';
-import { useAutoCopyOnSelect } from '../../../hooks/useAutoCopyOnSelect';
+import { useAutoCopyOnSelect } from '@/hooks/useAutoCopyOnSelect';
 
 interface SequenceAlignmentVisualizationProps {
   sequences?: Record<string, string>;

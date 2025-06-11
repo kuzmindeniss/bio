@@ -4,7 +4,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import SequenceAlignmentVisualization from './components/Visualization';
 import { useState } from 'react';
-import { SEQUENCE_NAMES } from '../../constants';
+import { SEQUENCE_NAMES } from '@/constants';
 
 const sequenceFieldValidations = yup
   .string()

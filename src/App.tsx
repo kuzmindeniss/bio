@@ -1,4 +1,4 @@
-import SequenceAlignment from './components/SequenceAlignment/SequenceAlignment'
+import SequenceAlignment from '@/components/SequenceAlignment';
 
 function App() {
   return <SequenceAlignment />;

@@ -1,5 +1,5 @@
 import { Box, type BoxProps } from '@mui/material';
-import { AMINO_ACID_TO_KIND_MAP, AminoAcid, AminoAcidKind } from '../../../../constants';
+import { AMINO_ACID_TO_KIND_MAP, AminoAcid, AminoAcidKind } from '@/constants';
 import { memo } from 'react';
 import { CHAR_BORDER_RADIUS, CHAR_FONT_FAMILY, CHAR_FONT_SIZE, CHAR_FONT_WEIGHT, CHAR_PADDING } from './constants';
 
